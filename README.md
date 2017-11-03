@@ -94,3 +94,6 @@ This is exactly what happens when mining BitCoins. You need computational power 
 
 Hopefully this journal should help somebody somewhere trying to understand the fundamental principle behind the inner machinary of how Blockchain and BitCoin fit together!
 
+If you look at the following URL: https://blockchain.info/block/000000000000000000a02292fd026559f08d616491b4fed57addefd384b44e7c
+
+which shows the latest block as of now (3-Nov-2017), the puzzle is to find the hash with 18 leading zeros! So you can imagine now why a Million dollar is needed to solve a single puzzle!
