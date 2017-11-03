@@ -62,7 +62,7 @@ b11cd38a7f952ff52348c60fa6436ad041f4273a6ad43200b48747ff7aae8557
 Ok! I get another ShitCoin - Glad that I can do this with my Mac! Let us notch it up even higher, this time around, the puzzle to solve is to find a hash with 3 leading zeros - Guess what, my Mac could not handle it, the JVM could not handle it! Here it is:
 
 ```
-scala> loop("Hello", "1", "000")
+scala> loop("Hello", "1", "000") // I'm setting the difficulty to 3 leading zeros
 185f8db32271fe25f561a6fc938b2e264306ec304eda518007d1764826381969
 948edbe7ede5aa7423476ae29dcd7d61e7711a071aea0d83698377effa896525
 b11cd38a7f952ff52348c60fa6436ad041f4273a6ad43200b48747ff7aae8557
@@ -90,4 +90,7 @@ e69f3899145b9e4c40802235183ea90f3cb21051fabd05dfe341166a2f4fdb4c
 java.lang.OutOfMemoryError: Java heap space
 ```
 
+This is exactly what happens when mining BitCoins. You need computational power as the difficulty goes higher and higher with every batch of Blocks! 
+
+Hopefully this journal should help somebody somewhere trying to understand the fundamental principle behind the inner machinary of how Blockchain and BitCoin fit together!
 
