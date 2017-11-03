@@ -23,13 +23,13 @@ def mineSomeShit(str: String, appender: String, difficulty: String): String = {
   }
 }
 ```
-We will hash the String "Hello" and we will try to find a hash for the initial String "Hello" by adding a single character to "Hello" and we hash the resulting String and check if we have leading zeros that we need. So the call to solve this simplistic puzzle would be like this:
+We will hash the String "Hello" and see if the resulting hash contains a leading zero's (the difficulty we set). If we do not find the hash with the expected number of leading zeros (the difficulty we set) we will append the String "Hello" with 1 to the end and re-compute the hash and check if we have the needed number of leading zeros.
 
 ```
 mineSomeShit("Hello", "1", "0")
 ```
 
-See I'm setting the difficulty to single zero at the staring position of the resulting hash. If I find a match from the resulting hash, I return, but if not, I keep appending a 1 to the end of "Hello" and continue hashing the resulting new String. So a test run on my Mac would look this:
+See I'm setting the difficulty to single zero which is what I expect to see at the staring position of the resulting hash. If I find a match from the resulting hash, I return, but if not, I keep appending a 1 to the end of "Hello" and continue hashing the resulting new String. So a test run on my Mac would look this:
 
 ```
 scala> mineSomeShit("Hello", "1", "0")
