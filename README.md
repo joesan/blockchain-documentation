@@ -30,7 +30,7 @@ We will hash the String "Hello" and see if the resulting hash contains a leading
 mineSomeShit("Hello", "1", "0")
 ```
 
-See I'm setting the difficulty to single zero which is what I expect to see at the staring position of the resulting hash. If I find a match from the resulting hash, I return, but if not, I keep appending a 1 to the end of "Hello" and continue hashing the resulting new String. So a test run on my Mac would look this:
+See I'm setting the difficulty to single zero which is what I expect to see at the staring position of the resulting hash. If I find a match from the resulting hash, I return, but if not, I keep appending a 1 to the end of "Hello" and continue hashing the resulting new String. This way of adding arbitrary String in our case "1" in Bitcoin terms is called a nonce! So a test run on my Mac would look this:
 
 ```
 scala> mineSomeShit("Hello", "1", "0")
