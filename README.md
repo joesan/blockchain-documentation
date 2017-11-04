@@ -5,7 +5,7 @@
 3. Blockchain simply put is a tool to maintain Trust & Integrity in a peer-to-peer system
 4. The challenge is to solve the Trust & Integrity in the worst of all situations
 
-# The Blockchain challenge:
+# The Blockchain challenge - The idea behind Mining:
 
 Here is a very simplistic view of what the actual miners do when mining for the Bitcoin, or rather to put it in mathematical terms, solving a puzzle - The puzzle is always to find the leading zeros in the resulting hash of a new block. For example., take a look at the following function written in Scala:
 
