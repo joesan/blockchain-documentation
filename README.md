@@ -12,6 +12,7 @@ Here is a very simplistic view of what the actual miners do when mining for the 
 ```
 def sha256Hash(text: String) : String = String.format("%064x", new java.math.BigInteger(1, java.security.MessageDigest.getInstance("SHA-256").digest(text.getBytes("UTF-8"))))
 
+@scala.annotation.tailrec
 def mineSomeShit(str: String, appender: String, difficulty: String): String = {
   val hashed = sha256Hash(str)
   println(hashed)
