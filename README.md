@@ -91,9 +91,9 @@ e69f3899145b9e4c40802235183ea90f3cb21051fabd05dfe341166a2f4fdb4c
 java.lang.OutOfMemoryError: Java heap space
 ```
 
-This is exactly what happens when mining BitCoins. You need computational power as the difficulty goes higher and higher with every batch of Blocks! 
+This is exactly what happens when mining BitCoins. You need computational power as the difficulty goes higher and higher with every batch of Blocks! There is no other way to find the hash with leading zeros, other than doing a brute force trial and error by adjusting a portion of the input block and calculating hashes over and over again until one of the hashes fulfills the puzzle by chance.
 
-Hopefully this journal should help somebody somewhere trying to understand the fundamental principle behind the inner machinary of how Blockchain and BitCoin fit together!
+Roughly every 14 days the Bitcoin difficulty is adjusted such that the time between successive blocks remains constant at 10 minutes.
 
 If you look at the following URL: https://blockchain.info/block/000000000000000000a02292fd026559f08d616491b4fed57addefd384b44e7c
 
