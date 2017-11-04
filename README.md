@@ -98,3 +98,13 @@ Roughly every 14 days the Bitcoin difficulty is adjusted such that the time betw
 If you look at the following URL: https://blockchain.info/block/000000000000000000a02292fd026559f08d616491b4fed57addefd384b44e7c
 
 which shows the latest block as of now (3-Nov-2017), the puzzle is to find the hash with 18 leading zeros! So you can imagine now why a Million dollar is needed to solve a single puzzle!
+
+Apart form thie, if you can grasp the ideas behind the following topics, you have understood somewhat technically what Blockchain is and how it works in the Bitcoin setup.
+
+1. Coinbase (TODO)
+2. Transactions
+3. Difficulty
+4. Hash
+5. Nonce
+6. Double Spending Problem
+7. Byzantine General's problem
