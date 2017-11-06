@@ -99,6 +99,8 @@ If you look at the following URL: https://blockchain.info/block/0000000000000000
 
 which shows the latest block as of now (3-Nov-2017), the puzzle is to find the hash with 18 leading zeros! So you can imagine now why a Million dollar is needed to solve a single puzzle!
 
+While at it, I wanted to create a simple private ethereum network and I did manage to do it and run them as Docker container's. I just ran two nodes on my Mac and I never saw my battery draining so fast! These Blockchain networks are certainly power thirsty!
+
 Apart form thie, if you can grasp the ideas behind the following topics, you have understood somewhat technically what Blockchain is and how it works in the Bitcoin setup.
 
 1. Coinbase (TODO)
