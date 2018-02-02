@@ -32,7 +32,7 @@ mineSomeShit("Hello", "1", "0")
 
 See I'm setting the difficulty to single zero which is what I expect to see at the staring position of the resulting hash. If I find a match from the resulting hash, I return, but if not, I keep appending a 1 to the end of "Hello" and continue hashing the resulting new String. This way of adding arbitrary String in our case "1" in Bitcoin terms is called a nonce! So a test run on my Mac would look this:
 
-```
+```diff
 scala> mineSomeShit("Hello", "1", "0")
 185f8db32271fe25f561a6fc938b2e264306ec304eda518007d1764826381969
 948edbe7ede5aa7423476ae29dcd7d61e7711a071aea0d83698377effa896525
@@ -42,12 +42,12 @@ b11cd38a7f952ff52348c60fa6436ad041f4273a6ad43200b48747ff7aae8557
 9e77cc0f3906d514f79889ec8d49b94488f82178fb368fef286b26f3964aa077
 8e8a20333f0fc59553b7a14a269206688508e653f5058e891711eba61cd5df17
 3740a40fb9b1f71f6e69b8268335aaf451b077c0ffe0df94d46c229175f21a16
-00c547c99864a134db0c95e459b885e34b5e3ecd70f134e574c593e7fb113ef3
++ 0xc547c99864a134db0c95e459b885e34b5e3ecd70f134e574c593e7fb113ef3
 ```
 
 So there we go! We found out the hash with a single leading zero - I solved this puzzle - I get a ShitCoin for my "Proof of Work". Let us now notch it up a little by setting the difficulty to finding 2 leading zeros in our resulting hash. A test run on my Mac is as below:
-
-```
+ 
+```diff
 scala> loop("Hello", "1", "00")
 185f8db32271fe25f561a6fc938b2e264306ec304eda518007d1764826381969
 948edbe7ede5aa7423476ae29dcd7d61e7711a071aea0d83698377effa896525
@@ -57,7 +57,7 @@ b11cd38a7f952ff52348c60fa6436ad041f4273a6ad43200b48747ff7aae8557
 9e77cc0f3906d514f79889ec8d49b94488f82178fb368fef286b26f3964aa077
 8e8a20333f0fc59553b7a14a269206688508e653f5058e891711eba61cd5df17
 3740a40fb9b1f71f6e69b8268335aaf451b077c0ffe0df94d46c229175f21a16
-00c547c99864a134db0c95e459b885e34b5e3ecd70f134e574c593e7fb113ef3
++ 00c547c99864a134db0c95e459b885e34b5e3ecd70f134e574c593e7fb113ef3
 ```
 
 Ok! I get another ShitCoin - Glad that I can do this with my Mac! Let us notch it up even higher, this time around, the puzzle to solve is to find a hash with 3 leading zeros - Guess what, my Mac could not handle it, the JVM could not handle it! Here it is:
