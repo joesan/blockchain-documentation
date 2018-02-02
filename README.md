@@ -101,7 +101,7 @@ which shows the latest block as of now (3-Nov-2017), the puzzle is to find the h
 
 500 peta hashes per second is produced by the Blockchain network. The average of 10 minutes (time taken to mine a single block) is maintained dynamically by the Blockchain network!
 
-SHA256 is flipping bite - flipping bits need energy - heat - with the heat generated from this hardware, I can heat my household, toast a bread, this hardware is specifically designed to do hashes - If you do not cool them they melt! - Doing this in Chennai, my home town which never has Winter, would not be economical!
+SHA256 is just about flipping bits - flipping bits need energy - heat - with the heat generated from this hardware, I can heat my household, toast a bread, this hardware is specifically designed to do hashes - If you do not cool them they melt! - Doing this in Chennai, my home town which never has Winter, would not be economical!
 
 While at it, I wanted to create a simple private ethereum network and I did manage to do it and run them as Docker container's. I just ran two nodes on my Mac and I never saw my battery draining so fast! These Blockchain networks are certainly power thirsty! Take a look here for the Demo: https://github.com/joesan/lab-chain
 
