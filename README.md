@@ -101,11 +101,11 @@ The screeenshot below shows the latest block info (as of 3-Nov-2017) from the Bi
 
 ![Alt text](https://github.com/joesan/blockchain-documentation/blob/master/images/Screen%20Shot%202018-02-03%20at%2002.06.07.png?raw=true "BlockInfo")
 
+The puzzle is to find the hash with 18 leading zeros as it can be seen in the Hash! So you can imagine now why a Million dollar is needed to solve a single puzzle!
+
 If you then look at the following URL, you can figure out the latest BlockInfo and from there you can figure out the difficulty that is current when mining a block!
 
 https://blockchain.info/block
-
-which shows the latest block as of now (3-Nov-2017), the puzzle is to find the hash with 18 leading zeros! So you can imagine now why a Million dollar is needed to solve a single puzzle!
 
 500 peta hashes per second is produced by the Blockchain network. The average of 10 minutes (time taken to mine a single block) is maintained dynamically by the Blockchain network!
 
