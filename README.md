@@ -121,3 +121,5 @@ Apart form this, if you can grasp the ideas behind the following topics, you hav
 4. Nonce
 5. Double Spending Problem
 6. Byzantine General's problem
+
+You can find more details on the above mentioned topics at this page: https://en.bitcoin.it/wiki/Main_Page
