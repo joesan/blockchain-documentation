@@ -1,5 +1,7 @@
 # blockchain-documentation
 
+This is a summary of the concepts around Blockchain technology!
+
 1. Two types of Software architectures exists - Centralized & Distributed
 2. A Hybrid architecture is also possible Centrally Distributed architectures
 3. Blockchain simply put is a tool to maintain Trust & Integrity in a peer-to-peer system
