@@ -99,7 +99,7 @@ Roughly every 14 days the Bitcoin difficulty is adjusted such that the time betw
 
 The screeenshot below shows the latest block info (as of 3-Nov-2017) from the Bitcoing network:
 
-![Alt text](/images/Screen+Shot+2018-02-03+at+02.06.07.png?raw=true "BlockInfo")
+![Alt text](https://github.com/joesan/blockchain-documentation/blob/master/images/Screen%20Shot%202018-02-03%20at%2002.06.07.png?raw=true "BlockInfo")
 
 If you then look at the following URL, you can figure out the latest BlockInfo and from there you can figure out the difficulty that is current when mining a block!
 
