@@ -26,9 +26,9 @@ def mineSomeShit(str: String, appender: String, difficulty: String): String = {
   }
 }
 ```
-We will hash the String "Hello" and see if the resulting hash contains a leading zero's (the difficulty we set). If we do not find the hash with the expected number of leading zeros (the difficulty we set) we will append the String "Hello" with 1 to the end and re-compute the hash and check if we have the needed number of leading zeros.
+We will hash the String "Hello" and see if the resulting hash contains a leading zero's (the difficulty we set). If we do not find the hash with the expected number of leading zeros (the difficulty we set) we will append the String "Hello" with 1 to the end and re-compute the hash and check if we have the needed number of leading zeros. So here our appender that we pass to the mineSomeShit method is the nonce!
 
-```
+```scala
 mineSomeShit("Hello", "1", "0")
 ```
 
