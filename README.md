@@ -50,7 +50,7 @@ b11cd38a7f952ff52348c60fa6436ad041f4273a6ad43200b48747ff7aae8557
 So there we go! We found out the hash with a single leading zero - I solved this puzzle - I get a ShitCoin for my "Proof of Work". Let us now notch it up a little by setting the difficulty to finding 2 leading zeros in our resulting hash. A test run on my Mac is as below:
  
 ```diff
-scala> loop("Hello", "1", "00")
+scala> mineSomeShit("Hello", "1", "00") // Setting the difficulty to two leading zeros
 185f8db32271fe25f561a6fc938b2e264306ec304eda518007d1764826381969
 948edbe7ede5aa7423476ae29dcd7d61e7711a071aea0d83698377effa896525
 b11cd38a7f952ff52348c60fa6436ad041f4273a6ad43200b48747ff7aae8557
@@ -65,7 +65,7 @@ b11cd38a7f952ff52348c60fa6436ad041f4273a6ad43200b48747ff7aae8557
 Ok! I get another ShitCoin - Glad that I can do this with my Mac! Let us notch it up even higher, this time around, the puzzle to solve is to find a hash with 3 leading zeros - Guess what, my Mac could not handle it, the JVM could not handle it! Here it is:
 
 ```
-scala> loop("Hello", "1", "000") // I'm setting the difficulty to 3 leading zeros
+scala> mineSomeShit("Hello", "1", "000") // I'm setting the difficulty to 3 leading zeros
 185f8db32271fe25f561a6fc938b2e264306ec304eda518007d1764826381969
 948edbe7ede5aa7423476ae29dcd7d61e7711a071aea0d83698377effa896525
 b11cd38a7f952ff52348c60fa6436ad041f4273a6ad43200b48747ff7aae8557
