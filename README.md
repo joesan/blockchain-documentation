@@ -11,7 +11,7 @@ This is a summary of the concepts around Blockchain technology!
 
 Here is a very simplistic view of what the actual miners do when mining for the Bitcoin, or rather to put it in mathematical terms, solving a puzzle - The puzzle is always to find the leading zeros in the resulting hash of a new block. For example., take a look at the following function written in Scala:
 
-```
+```scala
 def sha256Hash(text: String) : String = String.format("%064x", new java.math.BigInteger(1, java.security.MessageDigest.getInstance("SHA-256").digest(text.getBytes("UTF-8"))))
 
 @scala.annotation.tailrec
